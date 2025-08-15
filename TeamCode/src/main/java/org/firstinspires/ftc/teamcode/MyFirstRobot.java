@@ -28,9 +28,9 @@ public class MyFirstRobot extends LinearOpMode {
             telemetry.update();
 
             trainerMotor.setPower(.5);
-            sleep(1000);
+            sleep(500);
             trainerMotor.setPower(0);
-            sleep(1000);
+            sleep(500);
 
         }
 
